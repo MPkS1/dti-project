@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure of Government in India</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Font Settings */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.8;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation Tabs */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            background-color: #333;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3;
+            transition: 0.3s;
+        }
+
+        /* Content Area */
+        .content {
+            padding: 30px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 80px; /* To prevent footer overlap */
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .active-tab {
+            display: block;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin: 12px 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        ul li strong {
+            color: #007BFF;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .section ul {
+            margin-left: 30px;
+        }
+
+        .icon {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #007BFF;
+        }
+
+        /* Attractive Card Boxes */
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: #007BFF;
+        }
+
+        .card ul li {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Adjustments */
+        @media screen and (max-width: 768px) {
+            .content {
+                padding: 20px 10px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding the Structure of Government in India</h1>
+        <p>A simple guide to help you understand the roles and functions of different government levels in India.</p>
+    </header>
+
+    <nav>
+        <ul class="tabs">
+            <li><a href="#" onclick="showTab('centralGovt')">Central Government</a></li>
+            <li><a href="#" onclick="showTab('stateGovt')">State Government</a></li>
+            <li><a href="#" onclick="showTab('localGovt')">Local Government</a></li>
+            <li><a href="#" onclick="showTab('divisionOfPowers')">Division of Powers</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <!-- Central Government Tab -->
+        <div id="centralGovt" class="tab-content active-tab">
+            <div class="section">
+                <h2>Central Government (Union Government)</h2>
+                <div class="card">
+                    <h3>Key Components and Duties:</h3>
+                    <ul>
+                        <li><span class="icon">🏛️</span><strong>Executive:</strong> Implements laws and oversees day-to-day administration.
+                            <ul>
+                                <li><strong>President:</strong> The ceremonial head of state. Represents India on state visits and formally signs laws passed by Parliament.</li>
+                                <li><strong>Prime Minister:</strong> The head of government. Leads the Cabinet, sets government policies, and makes decisions on national issues.</li>
+                                <li><strong>Council of Ministers:</strong> Assists the Prime Minister in managing different ministries, including Home Affairs, Defense, Finance, etc.</li>
+                            </ul>
+                        </li>
+                        <li><span class="icon">📜</span><strong>Legislature:</strong> Makes laws to ensure smooth governance.
+                            <ul>
+                                <li><strong>Lok Sabha:</strong> The people's house. Ensures representation of the people, formulates laws, and controls national expenditure.</li>
+                                <li><strong>Rajya Sabha:</strong> The upper house of Parliament, ensures representation of the states and works to amend bills passed in the Lok Sabha.</li>
+                            </ul>
+                        </li>
+                        <li><span class="icon">⚖️</span><strong>Judiciary:</strong> The courts ensure justice and uphold the Constitution.
+                            <ul>
+                                <li><strong>Supreme Court:</strong> Interprets laws, resolves disputes, and protects fundamental rights of citizens.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- State Government Tab -->
+        <div id="stateGovt" class="tab-content">
+            <div class="section">
+                <h2>State Government</h2>
+                <div class="card">
+                    <h3>Key Components and Duties:</h3>
+                    <ul>
+                        <li><span class="icon">🏙️</span><strong>Executive:</strong> The Governor and Chief Minister run the state’s daily affairs.
+                            <ul>
+                                <li><strong>Governor:</strong> Ceremonial head of state in the state, appoints the Chief Minister, and ensures that the state government runs according to the Constitution.</li>
+                                <li><strong>Chief Minister:</strong> Head of the state government. Leads the state cabinet, formulates policies, and manages the state's administration.</li>
+                            </ul>
+                        </li>
+                        <li><span class="icon">📜</span><strong>Legislature:</strong> State Assemblies make laws for state-level issues.
+                            <ul>
+                                <li><strong>Vidhan Sabha:</strong> Legislative assembly where laws are debated and passed. Ensures the effective governance of the state.</li>
+                                <li><strong>Vidhan Parishad:</strong> Legislative council (only in some states). Works to review and amend laws before they are passed.</li>
+                            </ul>
+                        </li>
+                        <li><span class="icon">⚖️</span><strong>Judiciary:</strong> The High Court interprets laws at the state level.
+                            <ul>
+                                <li><strong>High Court:</strong> The highest judicial body at the state level that hears cases involving state matters and upholds justice.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Local Government Tab -->
+        <div id="localGovt" class="tab-content">
+            <div class="section">
+                <h2>Local Government</h2>
+                <div class="card">
+                    <h3>Key Components and Duties:</h3>
+                    <ul>
+                        <li><span class="icon">🏠</span><strong>Urban Local Bodies:</strong> Handle urban area affairs.
+                            <ul>
+                                <li><strong>Municipal Corporation:</strong> Manages large cities, providing essential services like water, waste management, and urban planning.</li>
+                                <li><strong>Municipal Council:</strong> Handles governance of smaller towns and cities, focusing on local infrastructure and services.</li>
+                            </ul>
+                        </li>
+                        <li><span class="icon">🏡</span><strong>Rural Local Bodies:</strong> Oversee rural development.
+                            <ul>
+                                <li><strong>Panchayats:</strong> Local self-governance system in rural areas, ensuring the development and welfare of rural citizens.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Division of Powers Tab -->
+        <div id="divisionOfPowers" class="tab-content">
+            <div class="section">
+                <h2>Division of Powers</h2>
+                <div class="card">
+                    <h3>Key Lists:</h3>
+                    <ul>
+                        <li><span class="icon">🔐</span><strong>Union List:</strong> Matters that only the Central Government can handle (e.g., defense, foreign affairs).</li>
+                        <li><span class="icon">🏛️</span><strong>State List:</strong> Matters that only the State Government can handle (e.g., police, health).</li>
+                        <li><span class="icon">⚖️</span><strong>Concurrent List:</strong> Matters where both governments share responsibility (e.g., education, marriage laws).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 All Rights Reserved | Government Structure of India</p>
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active-tab'));
+            document.getElementById(tabId).classList.add('active-tab');
+        }
+    </script>
+</body>
+</html>

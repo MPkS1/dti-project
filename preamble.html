@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preamble of the Constitution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+        body { background-color: #f1f8f7; font-size: 16px; color: #333; }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 { font-size: 2.5rem; font-weight: 600; cursor: pointer; }
+        header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        header nav a:hover { color: #ffb3b3; }
+        
+        /* Preamble Section */
+        .preamble {
+            padding: 6rem 3rem;
+            text-align: center;
+            background: #ffffff;
+            color: #333;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+        }
+        .preamble h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #4e73df;
+            margin-bottom: 1rem;
+        }
+        .preamble p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+            color: #555;
+        }
+        .preamble .highlight {
+            font-weight: 600;
+            color: #1cc88a;
+        }
+
+        /* Key Points Section */
+        .key-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+        }
+        .key-point {
+            background: #1cc88a;
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .key-point:hover {
+            background-color: #17a673;
+            transform: translateY(-5px);
+        }
+
+        /* Interactive Quiz */
+        .quiz-section {
+            background-color: #f5fafd;
+            padding: 3rem;
+            margin-top: 3rem;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .quiz-section h2 {
+            font-size: 2.5rem;
+            color: #4e73df;
+            margin-bottom: 1.5rem;
+        }
+        .quiz-options button {
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            background-color: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .quiz-options button:hover {
+            background-color: #2e59d9;
+            transform: scale(1.05);
+        }
+
+        /* Feedback for Answer */
+        .feedback {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+            display: none;
+        }
+        .correct { background-color: #1cc88a; }
+        .incorrect { background-color: #f28a8a; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1cc88a;
+            color: white;
+            margin-top: 50px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1 onclick="window.location.href='index.html'">Let’s Learn the Constitution</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="topics.html">Topics</a>
+    </nav>
+</header>
+
+<!-- Preamble Section -->
+<div class="preamble">
+    <h1>The Preamble of the Indian Constitution</h1>
+    <p>The Preamble of the Constitution of India is a brief introductory statement that sets forth the guiding principles and core values of the Constitution. It serves as the foundation for the Constitution and provides an insight into the aspirations of the Indian people. The Preamble reads:</p>
+    <p><span class="highlight">"We, the people of India, having solemnly resolved to constitute India into a Sovereign, Socialist, Secular, Democratic Republic and to secure to all its citizens:</span></p>
+    <p>Justice, social, economic, and political; Liberty of thought, expression, belief, faith, and worship; Equality of status and of opportunity; and to promote among them all Fraternity assuring the dignity of the individual and the unity and integrity of the Nation."</p>
+</div>
+
+<!-- Key Points Section -->
+<div class="key-points">
+    <div class="key-point">
+        <h3>Sovereign</h3>
+        <p>India is a sovereign state, meaning it is free to make its own laws and is not subject to any external authority.</p>
+    </div>
+    <div class="key-point">
+        <h3>Socialist</h3>
+        <p>The term 'socialist' reflects the aim of achieving social and economic justice for all, ensuring equitable distribution of wealth.</p>
+    </div>
+    <div class="key-point">
+        <h3>Secular</h3>
+        <p>India does not favor any particular religion and grants equal freedom to all religions.</p>
+    </div>
+    <div class="key-point">
+        <h3>Democratic</h3>
+        <p>India is a democracy, where the people elect their leaders through free and fair elections.</p>
+    </div>
+    <div class="key-point">
+        <h3>Republic</h3>
+        <p>India has an elected head of state (the President) instead of a monarch, ensuring a republican form of governance.</p>
+    </div>
+</div>
+
+<!-- Quiz Section -->
+<div class="quiz-section">
+    <h2>Test Your Knowledge!</h2>
+    <p>Let’s see if you can recall what you’ve learned. Choose the correct answer below.</p>
+    <div class="quiz-options">
+        <button onclick="checkAnswer(true, this)">What does 'Sovereign' mean in the Preamble?</button>
+        <button onclick="checkAnswer(false, this)">Does the Preamble mention the word 'Liberty'?</button>
+        <button onclick="checkAnswer(true, this)">Is India a 'Republic' according to the Preamble?</button>
+    </div>
+    <div class="feedback" id="feedback"></div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Let’s Learn the Constitution. All rights reserved.</p>
+</footer>
+
+<script>
+    function checkAnswer(isCorrect, btn) {
+        var feedback = document.getElementById('feedback');
+        
+        if (isCorrect) {
+            feedback.textContent = "Correct Answer!";
+            feedback.classList.remove('incorrect');
+            feedback.classList.add('correct');
+        } else {
+            feedback.textContent = "Incorrect! Try Again.";
+            feedback.classList.remove('correct');
+            feedback.classList.add('incorrect');
+        }
+
+        feedback.style.display = "block";
+        setTimeout(function() {
+            feedback.style.display = "none";
+        }, 1000);
+
+        // Optionally, disable buttons after answering
+        var buttons = document.querySelectorAll('.quiz-options button');
+        buttons.forEach(function(button) {
+            button.disabled = true;
+        });
+
+        // Highlight the correct or incorrect button
+        btn.style.backgroundColor = isCorrect ? "#1cc88a" : "#f28a8a";
+    }
+</script>
+
+</body>
+</html>
